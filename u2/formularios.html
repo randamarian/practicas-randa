@@ -1,0 +1,57 @@
+<!--
+Randa Marian Bayliss Fernández
+Diseño Web | Unidad 2 | Práctica Formularios
+Viernes 14 de marzo de 2025/ Viernes 21 de marzo de 2025
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formularios </title>
+
+     <!--boostrap css-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+     <!--tipografía-->
+     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+     <!-- mi hoja de estilos -->
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+
+    <header class="cabecera">
+        <h1>Formularios HTML</h1>
+    </header>
+    <section class="cuerpo">
+        <div class="container">
+            <div class="items">
+                <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, optio quaerat dolor sed aliquam adipisci vitae cumque, eveniet, excepturi voluptates dolorum illo. Odit, eos? Nulla enim corrupti amet pariatur sed.</p>
+                <a href="https://w.app/fiesta-cafe"><i class="bi bi-whatsapp"></i> Contáctanos </a>
+            </div>
+            <div class="items">
+                <!-- ATRIBUTOS ACTION Y METHOD -->
+                 <!-- ACTION= A DONDE VAN LOS DATOS CUANDO SE RECOPILA LA INFORMACIÓN -->
+                  <!-- METHOD= ENVIA LA INFORMACIÓN DEL FORMULARIO DE MANERA OCULTA PARA QUE ESTÉ MÁS SEGURA -->
+                <form action="#" method="post">
+                    <!-- AL PROFE NO LE GUSTA LABEL, MEJOR AÑADE EL ATRIBUTO PLACEHOLDER AL INPUT QUE LE DA UN MENSAJE EN EL MISMO INPUT AL USUARIO-->
+
+                    <!-- SON ETIQUETAS IN-LINE -->
+                    <input type="text" name="nombre" placeholder="Escribe tu nombre">
+                    <input type="email" name="email" id="" placeholder="Escribe tu correo">
+                    <input type="tel" name="tel" id="" placeholder="Escribe tu celular de 10 dígitos">
+                    <textarea name="" id="" placeholder="Escribe tu mensaje:"></textarea>
+                    <input id="btn" type="button" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="pie"></footer>
+    
+    <!-- LISTA DESPEGABLE -->
+    <datalist></datalist>
+</body>
+</html>

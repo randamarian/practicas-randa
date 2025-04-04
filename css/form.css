@@ -1,0 +1,115 @@
+/* DOCUMENTO CSS */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    background-color: rgb(181, 228, 195);
+}
+
+
+.cuerpo { width: 100%;}
+
+h1 { text-align: center;}
+
+h2 { padding-bottom: 8px;}
+
+.cabecera {
+    min-height: 80px;
+    border-bottom: 2px solid black;
+}
+
+
+/* TODOS LOS PÁRRAFOS DESCENDIENTES DE CONTAINER */
+.container p { 
+    font-size: 1.3em;
+    padding-bottom: 16px;
+}
+
+/* ALTO NIVEL DE ESPECIFIDAD, SE APLICA SI EL PÁRRAFO ES DESCENDIENTE DE TODAS ESTAS CLASES */
+section.cuerpo .container .items p { font-size: 1.3em;}
+
+.container { 
+    padding-top: 80px;
+    width: 80%; 
+    margin: 0px auto;
+    display: flex;
+}
+
+.items {
+    width: 50%;
+    padding: 16px;
+    /* UNA DE LAS PROPIEDADES MÁS IMPORTANTES PARA LA MAQUETACIÓN DE UNA PÁGINA WEB*/
+    box-sizing: border-box;
+}
+
+.items input, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+textarea { 
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 120px;
+    max-height: 120px;
+
+}
+
+.items a {
+    display: block;
+    width: 120px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color:#25d366;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.items a:active { 
+    background-color: black;
+}
+
+.items a:hover { 
+    background-color: white ; 
+    color: #075e54; 
+    border: 2px solid #075e54;
+    background: linear-gradient(90deg, rgba(7,94,84,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+
+/* MENOS ESPECÍFICO */
+.container input .btn {
+    width: 120px;
+}
+
+#btn {
+    width: 120px;
+}
+
+.items input::placeholder, textarea::placeholder {
+    color: #075e54;
+}
+
+.container::before, .container::after {
+    content: " ";
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: url(../img/send-fill.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top: -15px;
+    left: -15px
+}
+
+div.container::after {
+    position: relative !important;
+    top: 260 !important;
+    left: 50px !important;
+}

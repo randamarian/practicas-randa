@@ -1,0 +1,49 @@
+/* Documento CSS */
+
+/* Selector universal */
+*{ margin: 0;}
+
+body {font-family: Arial, Helvetica, sans-serif;
+     font-family: "Noto Sans KR", serif;}
+
+/* ENCABEZADOS */
+h1 { background-color: rgb(155, 57, 246);
+     text-align: center;}
+
+h2 { padding: 8px 0px;
+     color: red;}
+
+
+.display { color: black;}
+
+
+/* LAYOUT */
+.cabecera{ padding: 16px 0px 16px 0px;
+            background-color: rgb(190, 174, 253);}
+
+
+                /* Cuando los 4 valores son iguales podemos poner solo uno*/
+                /* Para centrar un elemento de bloque con la etiqueta margin */
+.listas{ margin: 16px auto;
+         padding: 16px;
+         width: 50%;
+         background-color: rgb(255, 141, 234);}
+
+
+
+.contenido { width: 70%;
+             margin: 16px auto;}
+
+
+                 /* Selector compuesto */
+.contenido p { line-height: 140%;
+                padding: 16px 0px;}
+
+header + section { background-color: aqua ;}
+
+body section ul li { color: red;}
+
+body section.listas ul li { text-align: 0;}
+
+.pie span { background-color: rgb(190, 174, 253);
+            text-align: center;}

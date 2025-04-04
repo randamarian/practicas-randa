@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio y Video html</title>
+    <!-- MI TIPOGRAFÍA -->
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="../css/audioyvideo.css">
+</head>
+<body>
+    <header class="cabecera">
+        <h1>Audio y Video html</h1>
+    </header>
+
+    <section class="musica">
+        <audio src="../audio/Tangerine.mp3" controls ></audio>
+    </section>
+
+    <section class="videos">
+        <div class="uno">
+            <h2>Video Incrustado</h2>
+            <!-- esta manera de poner tamaños está bien pero no es lo más optimo recomendado <width="560" height="315"-->
+            <iframe src="https://www.youtube.com/embed/ia1Fbg96vL0?si=c1PhZFscwIM-gB0B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="dos">
+            <h2>Video Insertado</h2>
+            <video src="../video/trailer_tierradeosos" controls></video>
+        </div>
+    </section>
+    <footer class="pie">
+        <p>Copyright &copy; 2025</p>
+    </footer>
+</body>
+</html>

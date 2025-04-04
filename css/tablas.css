@@ -1,0 +1,33 @@
+/* DOCUMENTO CSS --------------- 5, 7 Y 10 DE MARZO DE 2025 */ 
+
+/* SELECTOR UNIVERSAL */
+*{  margin: 0px;
+    padding: 0px;}
+
+/* SELECTOR DE ETIQUETA */
+body{ font-family: "Work Sans", sans-serif;
+      color: blue;}
+
+h1,h2 { font-family: "Big Shoulders", sans-serif;
+        text-align: center;
+        padding: 8px 0px ; }
+
+/* ETIQUETA DE CLASE */
+.cabecera{ margin-bottom: 32px;}
+
+.tablas { margin-bottom: 32px;
+          min-height: 1px;
+          padding: 16px 0px 16px 0px;
+          background-color: rgb(241, 61, 181); }
+
+/* ETIQUETA COMPUESTA */
+div.tablas { background-color: aqua;
+            margin-bottom: 300px;}
+
+.tablas table { margin: auto; }
+
+.pie { background-color: blue;
+       color: white;
+       text-align: center;}
+
+

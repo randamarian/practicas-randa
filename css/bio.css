@@ -1,0 +1,102 @@
+/* DOCUMENTO CSS --------------- LUNES 10 DE MARZO DE 2025*/
+
+* {
+        margin: 0px;
+        padding: 0px;
+}
+
+body { 
+        background-color: rgb(144, 196, 255);
+        font-family: "Rubik", sans-serif;
+        color: white;
+}
+
+div {
+        background-color: rgb(23, 111, 234);
+        width: 75%;
+        margin: 16px auto 16px auto;
+        padding: 20px;
+}
+
+
+header h1 { 
+        color: rgb(19, 19, 168);
+        font-family: "Bruno Ace", sans-serif;
+        font-size: 58px;
+        text-align: center;
+        margin-top: 20px;
+}
+
+.foto img {
+        width: 100%;
+        height: 100%;
+}
+
+.pie-foto {
+        font-family: "Inconsolata", monospace;
+        font-size: 12px;
+        color: rgb(144, 196, 255);
+
+}
+
+h2 {
+        color: rgb(144, 196, 255);
+        font-family: "Inconsolata", monospace;
+}
+
+
+.bio img, .foto img{
+        width: 100%;
+        height: 100%;
+}
+
+.foto p {
+        text-align: center;
+        margin-top: 10px;
+}
+
+.bio p {
+        margin: 20px auto;
+}
+
+.pie-foto {
+        margin: 0px;
+        padding: 0px;
+}
+
+.bi-twitter, .bi-youtube, .bi-spotify {
+        font-size: 22px;
+        color: rgb(144, 196, 255);
+}
+
+.portada-album {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+}
+
+.tabla table { 
+        margin: auto;}
+
+.tabla th {
+        padding: 20px;
+        font-family: "Inconsolata", monospace;
+        font-size: 11px;
+        color: rgb(144, 196, 255);
+}
+
+.video iframe { 
+        width: 100%;
+        height: 450px;
+        margin-top: 20px;
+}
+
+.pie {
+        background-color: white;
+        color: rgb(23, 111, 234);
+        padding: 10px;
+        margin-top: 800px;
+        text-align: center;
+}
+
+                
