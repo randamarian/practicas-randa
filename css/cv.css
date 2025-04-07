@@ -1,9 +1,41 @@
 /* DOCUMENTO CSS */
-/*
+
 * { margin: 0px; padding: 0px;}
 
-section {
-    display: flex;
+body {
+    background-color: rgb(59, 59, 59);
 }
 
-*/
+section {
+    background-color: rgb(32, 32, 32);
+    color: rgb(243, 243, 243);
+    width: 75%;
+    margin: 16px auto 16px auto;
+    padding: 30px;
+    border-radius: 33px;
+}
+.sns h2, .sns i {
+    color: rgb(255, 255, 255);
+}
+.sns a:visited { 
+    color: #a09e9e; 
+}
+
+header {
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+header h1 {
+
+}
+
+i {
+    font-size: 2.5em;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
